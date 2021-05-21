@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Cab Booking</title>
+    </head>
+    <body>
+        <center> {{"Welcome" + "  "+ session['username']}}</center>
+        <div style="border: solid red; background: #E6F80A;">
+            <p>Hey {{session['username']}},<br/> we wellcome you to the test cab booking platform Now you can book your upcomeing trips with us.</p>
+            <center>
+                <a href="/newbooking">Like here to Book a cab</a>
+                <br>
+                <a href="/view">View all Your Bookings</a>
+                <br>
+                <a href="/deletebooking">Cancle your booking</a>
+            </center>
+        </div>
+    </body>
+</html>
